@@ -1,0 +1,11 @@
+.headerWhole{
+    background: linear-gradient(90deg,#ff5f67,#e9378c);
+    height : 40px;
+    margin-top: -16px;
+    width: 100%;
+}
+.makeCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

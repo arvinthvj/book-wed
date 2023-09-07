@@ -1,0 +1,15 @@
+.headerWhole{
+    background: linear-gradient(90deg,#ff5f67,#e9378c);
+    height : 85px;
+}
+.makeCenter{
+    display: flex;
+    align-items: center;
+}
+.menuPosition{
+    max-width: 37% !important;
+}
+
+.iconsContainer {
+    max-width: 17% !important;
+}
