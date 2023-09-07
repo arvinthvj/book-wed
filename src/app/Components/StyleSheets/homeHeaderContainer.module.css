@@ -2,3 +2,22 @@
     height: 400px;
     background-image: url("https://bookwedgo-prod.s3.amazonaws.com/site_images/images/bannerImage.jpg");
 }
+.textBeforeAndAfter::after{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 60px;
+    background: #ff5f67;
+    top: 50%;
+    position: absolute;
+}
+
+.textBeforeAndAfter::before{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 60px;
+    background: #ff5f67;
+    top: 50%;
+    position: absolute;
+}
